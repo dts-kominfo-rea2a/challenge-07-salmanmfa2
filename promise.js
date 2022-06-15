@@ -19,9 +19,9 @@ const promiseOutput = async(emosi)=>{
     return acc;
 
   }
-  catch(err){
+  catch{
     
-console.log(err);
+    console.log("error");
   }
 }
 
